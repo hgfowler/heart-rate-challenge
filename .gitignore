@@ -1,0 +1,20 @@
+# Build output
+build/
+cmake-build-*/
+
+# Compiled files
+*.o
+*.out
+heart_rate
+
+# macOS
+.DS_Store
+
+# IDE/editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Local challenge video
+codingtest.mov
