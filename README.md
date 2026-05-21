@@ -39,10 +39,10 @@ This will configure, build, and run the program using `codingtest.mov`
 ### Option 2: Run manually with CMake
 
 ```bash
-mkdir build
-cmake ..
-make
-./heart_rate ../codingtest.mov
+mkdir -p build
+cmake -S . -B build
+cmake --build build
+./build/heart_rate codingtest.mov
 ```
 
 The program should print the estimated heart rate in BPM.
